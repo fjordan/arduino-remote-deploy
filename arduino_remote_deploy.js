@@ -18,7 +18,7 @@ var config = {
   username: argv.u ? argv.u : 'your-username',
   key_dir: argv.k ? argv.k : 'your-keyfile',
   password: argv.p ? argv.p : 'your-password',
-  deploy_script: argv.s ? argv.s : 'your-deploy-script',
+  dep_script: argv.s ? argv.s : 'your-deploy-script',
   dep_host: 'your.server.hostname'
 };
 
@@ -67,7 +67,7 @@ function deploy_from_host(host, dir) {
 
   c.on('ready', function() {
     console.log('Connection :: ready');
-    c.exec(config.deploy_script, function(err, stream) {
+    c.exec(config.dep_script, function(err, stream) {
       if (err) throw err;
       stream.on('data', function(data, extended) {
         console.log((extended === 'stderr' ? 'STDERR: ' : 'STDOUT: ')
