@@ -7,5 +7,5 @@ Based on Niall O'Higgins's project found here: https://github.com/niallo/arduino
 
 Execute your deploy script on a remote host via ssh and an arduino button.
 
-![Deploy Button](https://raw.github.com/fjordan/arduino_remote_deploy/master/arduino-button.png)
-![Deploy Button](https://raw.github.com/fjordan/arduino_remote_deploy/master/shell.png)
+![button](https://raw.github.com/fjordan/arduino_remote_deploy/master/arduino-button.png)
+![shell](https://raw.github.com/fjordan/arduino_remote_deploy/master/shell.png)
