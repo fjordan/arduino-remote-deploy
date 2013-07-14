@@ -1,4 +1,4 @@
-arduino_remote_deploy
+Arduino Remote Deploy
 =====================
 
 Arduino-powered remote deploy script execution
